@@ -6,7 +6,7 @@ Distributed (Priority) Job Queue implemented with Redis
 ## Distributed Job Queue
 Distributed Job Queue is used to load-balance works among workers by dynamically assigning jobs.
 
-This repo includes a FIFO job queue and a priority job queue.
+This repo includes a FIFO (first in first out) job queue and a priority job queue.
 
 ## Scalability
 With Redis as backend, distributed workers can request job from the queue.
